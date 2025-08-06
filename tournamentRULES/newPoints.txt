@@ -1,27 +1,10 @@
-Покемоны за 6 балл
+6 балла
 Calyrex-Shadow
 Groudon-Primal
 Rayquaza-Mega
 
-Покемоны за 5 балл
+5 балла
 Arceus
-Arceus-Bug
-Arceus-Dark
-Arceus-Dragon
-Arceus-Electric
-Arceus-Fairy
-Arceus-Fighting
-Arceus-Fire
-Arceus-Flying
-Arceus-Ghost
-Arceus-Grass
-Arceus-Ground
-Arceus-Ice
-Arceus-Poison
-Arceus-Psychic
-Arceus-Rock
-Arceus-Steel
-Arceus-Water
 Koraidon
 Kyogre-Primal
 Miraidon
@@ -31,17 +14,17 @@ Xerneas
 Yveltal
 Zacian-Crowned
 
-Покемоны за 4 балл
+4 балла
 Calyrex-Ice
 Chi-Yu
 Chien-Pao
 Eternatus
 Gengar-Mega
 Groudon
-Ho-Oh (хид)
+Ho-Oh (H)
 Kyogre
 Kyurem-Black
-Lugia (хид)
+Lugia (H)
 Marshadow
 Mewtwo-Mega-X
 Mewtwo-Mega-Y
@@ -49,21 +32,18 @@ Necrozma-Dusk-Mane
 Zacian
 Zygarde-Complete
 
-Покемоны за 3 балл
+3 балла
 Annihilape
 Blastoise-Mega
 Darkrai
 Darmanitan-Galar
 Deoxys
-Deoxys-Attack
 Dialga
-Dialga-Origin
-Ditto (хид)
+Ditto (H)
 Dondozo
 Dracovish
 Flutter Mane
 Giratina
-Giratina-Origin
 Iron Bundle
 Kangaskhan-Mega
 Kingambit
@@ -76,8 +56,8 @@ Mewtwo
 Necrozma-Dawn-Wings
 Palafin
 Palkia
-Palkia-Origin
 Pheromosa
+Regieleki
 Roaring Moon
 Salamence-Mega
 Shaymin-Sky
@@ -85,21 +65,20 @@ Solgaleo
 Spectrier
 Urshifu
 Zamazenta
-Zamazenta-Crowned
 Zekrom
 
-Покемоны за 2 балл
+2 балла
 Alakazam-Mega
 Altaria-Mega
 Baxcalibur
 Beedrill-Mega
-Blaziken (хид)
+Blaziken (H)
 Blaziken-Mega
 Blissey
 Celesteela
 Chansey
 Charizard-Mega-X
-Cinderace (хид)
+Cinderace (H)
 Crawdaunt
 Deoxys-Speed
 Diancie-Mega
@@ -110,10 +89,10 @@ Gallade-Mega
 Gardevoir-Mega
 Genesect
 Gholdengo
-Gliscor (хид)
+Gliscor (H)
 Goodra-Hisui
 Gothitelle
-Greninja (хид)
+Greninja (H)
 Greninja-Ash
 Gyarados-Mega
 Heatran
@@ -124,25 +103,23 @@ Iron Valiant
 Jirachi
 Kartana
 Kyurem
-Landorus (хид)
+Landorus (H)
 Landorus-Therian
 Latias-Mega
 Latios
-Latios-Mega
 Lopunny-Mega
 Lugia
 Magearna
 Mawile-Mega
 Medicham-Mega
-Meowscarada (хид)
+Meowscarada (H)
 Naganadel
-Regieleki
 Reshiram
 Reuniclus
 Rillaboom
 Sableye-Mega
 Scizor-Mega
-Serperior (хид)
+Serperior (H)
 Shedinja
 Smeargle
 Sneasler
@@ -156,20 +133,62 @@ Toxapex
 Tyranitar-Mega
 Ursaluna
 Urshifu-Rapid-Strike
-Venusaur (хид)
+Venusaur (H)
 Venusaur-Mega
 Walking Wake
 Weavile
 Xurkitree
 Zygarde
 
-Покемоны за 1 балл
+13 балла
+Melmetal-Gmax
+Urshifu-Gmax
+Urshifu-Rapid-Strike-Gmax
+
+12 балла
+Eternatus-Eternamax
+Rillaboom-Gmax
+Snorlax-Gmax
+Venusaur-Gmax
+
+11 балла
+Appletun-Gmax
+Blastoise-Gmax
+Centiskorch-Gmax
+Charizard-Gmax
+Cinderace-Gmax
+Corviknight-Gmax
+Drednaw-Gmax
+Eevee-Gmax
+Gengar-Gmax
+Grimmsnarl-Gmax
+Hatterene-Gmax
+Inteleon-Gmax
+Sandaconda-Gmax
+
+10 балла
+Alcremie-Gmax
+Butterfree-Gmax
+Coalossal-Gmax
+Copperajah-Gmax
+Duraludon-Gmax
+Flapple-Gmax
+Garbodor-Gmax
+Kingler-Gmax
+Lapras-Gmax
+Machamp-Gmax
+Meowth-Gmax
+Orbeetle-Gmax
+Pikachu-Gmax
+Toxtricity-Gmax
+Toxtricity-Low-Key-Gmax
+
+1 балла
 Abomasnow-Mega
 Absol-Mega
 Aegislash
 Aerodactyl-Mega
 Aggron
-Aggron-Mega
 Alakazam
 Alomomola
 Amoonguss
@@ -187,7 +206,6 @@ Banette-Mega
 Barbaracle
 Barraskewda
 Basculegion
-Basculegion-F
 Bisharp
 Blacephalon
 Blastoise
@@ -200,7 +218,6 @@ Centiskorch
 Ceruledge
 Chandelure
 Charizard
-Charizard-Mega-Y
 Cinderace
 Clefable
 Clodsire
@@ -234,7 +251,6 @@ Eevee
 Eiscue
 Electivire
 Enamorus
-Enamorus-Therian
 Entei
 Espeon
 Excadrill
@@ -246,7 +262,6 @@ Flygon
 Forretress
 Galvantula
 Garchomp
-Garchomp-Mega
 Gardevoir
 Garganacl
 Gastrodon
@@ -254,7 +269,6 @@ Gengar
 Gigalith
 Glaceon
 Glalie
-Glalie-Mega
 Glastrier
 Gligar
 Glimmora
@@ -297,8 +311,6 @@ Linoone
 Lucario
 Lurantis
 Lycanroc
-Lycanroc-Dusk
-Lycanroc-Midnight
 Magnezone
 Malamar
 Mamoswine
@@ -307,11 +319,8 @@ Mandibuzz
 Manectric-Mega
 Mantine
 Marowak
-Marowak-Alola
 Maushold
-Maushold-Four
 Meloetta
-Meloetta-Pirouette
 Mesprit
 Metagross
 Mew
@@ -319,13 +328,12 @@ Mienshao
 Mimikyu
 Minior
 Moltres
-Moltres-Galar
 Muk-Alola
 Necrozma
 Nidoking
 Nihilego
-Ninetales (хид)
-Ninetales-Alola (хид)
+Ninetales (H)
+Ninetales-Alola (H)
 Ninjask
 Obstagoon
 Omastar
@@ -348,22 +356,17 @@ Registeel
 Ribombee
 Roserade
 Rotom
-Rotom-Fan
-Rotom-Frost
-Rotom-Heat
-Rotom-Mow
-Rotom-Wash
 Salamence
 Salazzle
 Samurott-Hisui
 Sandaconda
-Sceptile (хид)
+Sceptile (H)
 Sceptile-Mega
 Scizor
-Scovillain (хид)
+Scovillain (H)
 Scream Tail
 Seismitoad
-Sharpedo (хид)
+Sharpedo (H)
 Sharpedo-Mega
 Shaymin
 Shuckle
@@ -371,17 +374,14 @@ Silvally
 Skarmory
 Skeledirge
 Slowbro
-Slowbro-Galar
-Slowbro-Mega
 Slowking
-Slowking-Galar
 Slurpuff
 Snorlax
 Stakataka
 Steelix-Mega
 Suicune
 Swampert
-Swoobat (хид)
+Swoobat (H)
 Sylveon
 Talonflame
 Tangela
@@ -390,12 +390,10 @@ Tapu Bulu
 Tentacruel
 Terrakion
 Thundurus
-Thundurus-Therian
-Togedemaru (хид)
+Togedemaru (H)
 Torkoal
 Tornadus
-Tornadus-Therian
-Tropius (хид)
+Tropius (H)
 Tyranitar
 Umbreon
 Uxie
@@ -409,11 +407,9 @@ Whimsicott
 Wo-Chien
 Wobbuffet
 Yanmega
-Zangoose (хид)
+Zangoose (H)
 Zapdos
-Zapdos-Galar
 Zarude
 Zeraora
 Zoroark-Hisui
 Zygarde-10%
-

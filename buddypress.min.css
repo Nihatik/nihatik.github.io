@@ -1,0 +1,213 @@
+body #buddypress * a {
+    box-shadow: none;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+body #buddypress div,
+body #buddypress dl,
+body #buddypress input[type=reset],
+body #buddypress input[type=search],
+body #buddypress input[type=submit],
+body #buddypress li,
+body #buddypress select,
+body #buddypress textarea {
+    border-radius: 4px;
+    background-clip: padding-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: all 0.2s ease-in-out;
+}
+
+body #buddypress #item-body blockquote,
+body #buddypress .bp-lists blockquote {
+    margin: 1.5em 0;
+    padding: 1em 1.5em;
+    border-left: 4px solid #e5e5e5;
+    font-style: italic;
+    color: #666;
+}
+
+body #buddypress .bp-list .action {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+@media screen and (min-width:46.8em) {
+    body.buddypress .entry-content:not(.alignwide):not(.alignfull),
+    body.buddypress .entry-header:not(.alignwide):not(.alignfull),
+    body.buddypress .site-content .entry-header:not(.alignwide):not(.alignfull) {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+}
+
+.buddypress-wrap .standard-form input[type=text],
+.buddypress-wrap .standard-form input[type=email],
+.buddypress-wrap .standard-form input[type=password],
+.buddypress-wrap .standard-form textarea {
+    width: 100%;
+    padding: 0.75em 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.buddypress-wrap .standard-form input[type=text]:focus,
+.buddypress-wrap .standard-form input[type=email]:focus,
+.buddypress-wrap .standard-form input[type=password]:focus,
+.buddypress-wrap .standard-form textarea:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+    outline: none;
+}
+
+.buddypress-wrap .standard-form input[type=submit],
+.buddypress-wrap .standard-form button[type=submit] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 4px;
+    background-color: #0073aa;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.buddypress-wrap .standard-form input[type=submit]:hover,
+.buddypress-wrap .standard-form button[type=submit]:hover {
+    background-color: #005177;
+}
+
+.buddypress-wrap .standard-form input[type=submit]:focus,
+.buddypress-wrap .standard-form button[type=submit]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #0073aa;
+}
+
+.bp-navs {
+    background: #f8f9fa;
+    border-radius: 4px;
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+.bp-navs ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bp-navs ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.bp-navs ul li a {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5em 1em;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.bp-navs ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.bp-navs ul li.current a {
+    background-color: #0073aa;
+    color: #fff;
+}
+
+.bp-navs ul li .count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.5em;
+    height: 1.5em;
+    padding: 0 0.5em;
+    margin-left: 0.5em;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    font-size: 0.875em;
+    font-weight: 500;
+}
+
+.bp-navs ul li.current a .count {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bp-list {
+    display: grid;
+    gap: 1.5em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bp-list > li {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.bp-list > li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bp-list li .item {
+    padding: 1.5em;
+}
+
+.bp-list li .item-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.bp-list li .item-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bp-list li .list-title {
+    margin: 0 0 0.5em;
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #333;
+}
+
+.bp-list li .item-meta {
+    color: #666;
+    font-size: 0.875em;
+}
+
+.bp-list li .action {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px solid #eee;
+}
+
+@media screen and (min-width: 46.8em) {
+    .bp-list {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
