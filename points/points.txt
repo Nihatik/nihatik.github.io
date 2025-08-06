@@ -52,6 +52,7 @@ Zygarde-Complete
 Покемоны за 3 балл
 Annihilape
 Blastoise-Mega
+Chansey
 Darkrai
 Darmanitan-Galar
 Deoxys
@@ -97,9 +98,9 @@ Blaziken (хид)
 Blaziken-Mega
 Blissey
 Celesteela
-Chansey
 Charizard-Mega-X
 Cinderace (хид)
+Clodsire (хид)
 Crawdaunt
 Deoxys-Speed
 Diancie-Mega
@@ -113,6 +114,7 @@ Gholdengo
 Gliscor (хид)
 Goodra-Hisui
 Gothitelle
+Great Tusk
 Greninja (хид)
 Greninja-Ash
 Gyarados-Mega
@@ -276,7 +278,7 @@ Houndoom-Mega
 Houndstone
 Hydreigon
 Incineroar
-Indeedee
+Indeedee (хид)
 Inteleon
 Iron Hands
 Iron Leaves
@@ -370,6 +372,7 @@ Shuckle
 Silvally
 Skarmory
 Skeledirge
+Slither Wing
 Slowbro
 Slowbro-Galar
 Slowbro-Mega
