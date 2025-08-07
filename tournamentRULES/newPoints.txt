@@ -35,6 +35,7 @@ Zygarde-Complete
 3 балла
 Annihilape
 Blastoise-Mega
+Chansey
 Darkrai
 Darmanitan-Galar
 Deoxys
@@ -57,7 +58,6 @@ Necrozma-Dawn-Wings
 Palafin
 Palkia
 Pheromosa
-Regieleki
 Roaring Moon
 Salamence-Mega
 Shaymin-Sky
@@ -76,9 +76,9 @@ Blaziken (H)
 Blaziken-Mega
 Blissey
 Celesteela
-Chansey
 Charizard-Mega-X
 Cinderace (H)
+Clodsire (H)
 Crawdaunt
 Deoxys-Speed
 Diancie-Mega
@@ -92,6 +92,7 @@ Gholdengo
 Gliscor (H)
 Goodra-Hisui
 Gothitelle
+Great Tusk
 Greninja (H)
 Greninja-Ash
 Gyarados-Mega
@@ -114,6 +115,7 @@ Mawile-Mega
 Medicham-Mega
 Meowscarada (H)
 Naganadel
+Regieleki
 Reshiram
 Reuniclus
 Rillaboom
@@ -290,7 +292,7 @@ Houndoom-Mega
 Houndstone
 Hydreigon
 Incineroar
-Indeedee
+Indeedee (H)
 Inteleon
 Iron Hands
 Iron Leaves
@@ -373,6 +375,7 @@ Shuckle
 Silvally
 Skarmory
 Skeledirge
+Slither Wing
 Slowbro
 Slowking
 Slurpuff

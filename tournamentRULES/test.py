@@ -155,39 +155,39 @@ with open('tiersRules.txt', 'w', encoding='utf-8') as f:
 conn.close()
 
 
-def export_pokemon_tiers_to_file(db_path='../pokedex/pokemon.db', output_file='newTiers.txt'):
+
+def export_pokemon_points_to_file(db_path='../pokedex/pokemon.db', output_file='newPoints.txt'):
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
-    # key: name_lower -> (original_name, tier)
     regular = {}
     hidden = {}
 
     # Сбор обычных
     cursor.execute("""
-        SELECT name, tier FROM streamcrafttiers 
-        WHERE tier IS NOT NULL AND tier != ''
+        SELECT name, points FROM streamcrafttiers 
+        WHERE points BETWEEN 1 AND 6
     """)
-    for name, tier in cursor.fetchall():
-        regular[name.strip().lower()] = (name, tier.strip())
+    for name, points in cursor.fetchall():
+        regular[name.strip().lower()] = (name, points)
 
-    # Сбор хидден — тоже используем обычный tier
+    # Сбор хидден
     cursor.execute("""
-        SELECT name, tier FROM streamcrafttiers 
-        WHERE tier IS NOT NULL AND tier != ''
+        SELECT name, pointsHa FROM streamcrafttiers 
+        WHERE pointsHa BETWEEN 1 AND 6
     """)
-    for name, tier in cursor.fetchall():
-        hidden[name.strip().lower()] = (name, tier.strip())
+    for name, pointsHa in cursor.fetchall():
+        hidden[name.strip().lower()] = (name, pointsHa)
 
-    # Объединение
-    combined = {}
+    combined = {}  # key: name_lower -> (output_name, points)
 
+    # Объединяем
     for key in set(regular.keys()).union(hidden.keys()):
         reg = regular.get(key)
         hid = hidden.get(key)
 
         if reg and hid:
-            if reg[1].lower() == hid[1].lower():
+            if reg[1] == hid[1]:
                 combined[key] = (reg[0], reg[1])
             else:
                 combined[key] = (reg[0], reg[1])
@@ -197,37 +197,44 @@ def export_pokemon_tiers_to_file(db_path='../pokedex/pokemon.db', output_file='n
         elif hid:
             combined[f"{key}_hid"] = (f"{hid[0]} (H)", hid[1])
 
-    # Удаление дубликатов форм с тем же tier
+    # Убираем только те формы, которые:
+    # 1. содержат "-"
+    # 2. имеют ту же базу без "-" с такими же баллами
     final_entries = {}
-    for key, (name, tier) in combined.items():
+    for key, (name, points) in combined.items():
         name_clean = name.split(" (")[0]
         base_name = name_clean.split('-')[0].lower()
 
         is_form = '-' in name_clean
+        is_hidden = name.endswith('(H)')
 
         if is_form:
-            base_entry = combined.get(base_name)
-            if base_entry and base_entry[1].strip().lower() == tier.strip().lower():
-                continue  # форма дублирует базовую по tier
+            # Пробуем найти базовую версию (не скрытую)
+            base_key = base_name
+            base_entry = combined.get(base_key)
+            if base_entry:
+                base_points = base_entry[1]
+                if base_points == points:
+                    continue  # форма дублирует по баллам базу — не добавляем
 
-        final_entries[key] = (name, tier)
+        final_entries[key] = (name, points)
 
-    # Группировка по tier
+    # Группировка по баллам
     grouped = {}
-    for name_out, tier in final_entries.values():
-        grouped.setdefault(tier.upper(), []).append(name_out)
+    for name_out, points in final_entries.values():
+        grouped.setdefault(points, []).append(name_out)
 
-    # Сортировка по tier имени (алфавитно)
+    # Запись
     lines = []
-    for tier_name in sorted(grouped.keys()):
-        lines.append(tier_name)
-        for name in sorted(grouped[tier_name]):
+    for point in sorted(grouped.keys(), reverse=True):
+        suffix = "баллов" if point in [5, 6] else "балла"
+        lines.append(f"{point} {suffix}")
+        for name in sorted(grouped[point]):
             lines.append(name)
         lines.append("")
 
-    # Запись
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines))
 
 # Вызов
-export_pokemon_tiers_to_file()
+export_pokemon_points_to_file()
